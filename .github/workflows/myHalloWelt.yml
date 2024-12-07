@@ -1,0 +1,10 @@
+name: hallo-welt
+on: push
+jobs:
+  hallo-welt-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out repo
+        uses: action/checkout@v4.2.2
+      - run: echo "Hallo Welt!"
+        
