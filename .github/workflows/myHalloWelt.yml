@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check out repo
-        uses: action/checkout@v4.2.2
+        uses: action/checkout@v4
       - run: echo "Hallo Welt!"
         
